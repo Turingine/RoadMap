@@ -45,8 +45,8 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 -   [x] Sélection du hardware (Radxa Cubie A7Z).
 -   [ ] **Système :** Création de l'image disque "Rootfs" Custom (Xcas, GCC, OCaml, ...).
--   [ ] **Hardware :** Design du PCB v1 (Matrice clavier).
--   [ ] **Software :** Compilation et exécution de XCas en ligne de commande sur la cible.
+-   [x] **Hardware :** Design du PCB v1 (Matrice clavier).
+-   [ ] **Software :** Compilation et exécution de Giac en ligne de commande sur la cible.
 
 ### Phase 2 : L'Intégration (Printemps 2026) 🛠️
 
@@ -56,7 +56,7 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 ### Phase 3 : L'Optimisation & TIPE (Été 2026) 🚀
 
--   [ ] **Mesures :** Comparatifs de consommation (Joules/Calcul) vs architectures classiques.
+-   [x] **Mesures :** Comparatifs de consommation (Joules/Calcul) vs architectures classiques.
 -   [ ] **Documentation :** Rédaction du dossier technique et publication des plans finaux.
 
 ---
