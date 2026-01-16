@@ -63,6 +63,8 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 ## 🔧 Installation & Reproduction
 
+- [Documents](https://drive.proton.me/urls/4GS7V8XAS4#EcAJzXk4TEI0) autres ( coque, statues, ...)
+
 ### Prérequis
 
 -   Une carte Radxa Cubie A7Z.
