@@ -24,7 +24,7 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 -   **Cœur de calcul :** Radxa Cubie A7Z (SoC Allwinner A733).
     -   Architecture **big.LITTLE** (2x Cortex-A76 + 6x Cortex-A55) pour une gestion fine de l'énergie.
     -   NPU 3 TOPS (Expérimental).
--   **Interface :** Clavier mécanique custom (Layout 60%) sur PCB maison.
+-   **[Interface](https://oshwlab.com/turingine/calculatrice) :** Clavier mécanique custom (Layout 60%) sur PCB maison.
 -   **Affichage :** Écran LCD SPI.
 
 ### 🐧 Software (La sobriété logicielle)
