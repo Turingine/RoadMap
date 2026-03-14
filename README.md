@@ -52,7 +52,7 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 -   [ ] **Interface :** Développement de l'UI graphique communiquant avec XCas.
 -   [ ] **Hardware :** Assemblage du prototype physique (Fabrication et conception de la coque).
--   [ ] **Système :** Scripting du démarrage automatique (Systemd service) et affichage via X11.
+-   [ ] **Système :** Scripting du démarrage automatique (Systemd service) et affichage via wayland.
 
 ### Phase 3 : L'Optimisation & TIPE (Été 2026) 🚀
 
