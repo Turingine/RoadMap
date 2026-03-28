@@ -61,7 +61,7 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 ---
 
-##Programmation :
+## Programmation :
 
 - [x] Communication avec le buffer graphique (Nathanaël)
 - [ ] Interface graphique (Nathanaël)
