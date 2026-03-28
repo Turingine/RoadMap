@@ -61,6 +61,17 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 ---
 
+##Programmation :
+
+- [x] Communication avec le buffer graphique (Nathanaël)
+- [ ] Interface graphique (Nathanaël)
+- [ ] Gestion des input (Nathanaël)
+- [ ] Plotter (Nathanaël)
+- [ ] Interface avec giac (parsing,...) (Kamil)
+- [ ] Faire fonctionner l'hardware (Tout le monde).
+- [ ] Lib pour le GPIO (Gaspard)
+
+
 ## 🔧 Installation & Reproduction
 
 - [Documents](https://drive.proton.me/urls/4GS7V8XAS4#EcAJzXk4TEI0) autres ( coque, statues, ...)
@@ -89,6 +100,7 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 -   **Nathanaël Buendia (Poitiers)** : CPGE MP2I
 -   **Kamil Leys (Tours)** : CPGE MP2I
+-   **Gaspard Lebaube (Paris)** : DL1
 
 ---
 
