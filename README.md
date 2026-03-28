@@ -44,19 +44,19 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 ### Phase 1 : Le Socle (Hiver 2025) - _En cours_ 🚧
 
 -   [x] Sélection du hardware (Radxa Cubie A7Z).
--   [ ] **Système :** Création de l'image disque "Rootfs" Custom (Xcas, GCC, OCaml, ...).
 -   [x] **Hardware :** Design du PCB v1 (Matrice clavier).
--   [ ] **Software :** Compilation et exécution de Giac en ligne de commande sur la cible.
 
 ### Phase 2 : L'Intégration (Printemps 2026) 🛠️
 
 -   [ ] **Interface :** Développement de l'UI graphique communiquant avec XCas.
 -   [ ] **Hardware :** Assemblage du prototype physique (Fabrication et conception de la coque).
 -   [ ] **Système :** Scripting du démarrage automatique (Systemd service) et affichage via wayland.
+-   [ ] **Software :** Compilation et exécution de Giac en ligne de commande sur la cible.
+-   [ ] **Système :** Création de l'image disque "Rootfs" Custom (Xcas, GCC, OCaml, ...).
 
 ### Phase 3 : L'Optimisation & TIPE (Été 2026) 🚀
 
--   [x] **Mesures :** Comparatifs de consommation (Joules/Calcul) vs architectures classiques.
+-   [ ] **Mesures :** Comparatifs de consommation (Joules/Calcul) vs architectures classiques.
 -   [ ] **Documentation :** Rédaction du dossier technique et publication des plans finaux.
 
 ---
