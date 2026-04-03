@@ -69,7 +69,6 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 - [ ] Plotter (Nathanaël)
 - [ ] Interface avec giac (parsing,...) (Kamil)
 - [ ] Faire fonctionner l'hardware (Tout le monde).
-- [ ] Lib pour le GPIO (Gaspard)
 
 
 ## Installation & Reproduction
