@@ -21,21 +21,21 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 ### Hardware (L'efficacité matérielle)
 
--   **Cœur de calcul :** Radxa Cubie A7Z (SoC Allwinner A733).
-    -   Architecture **big.LITTLE** (2x Cortex-A76 + 6x Cortex-A55) pour une gestion fine de l'énergie.
-    -   NPU 3 TOPS (Expérimental).
--   **[Interface](https://oshwlab.com/turingine/calculatrice) :** Clavier mécanique custom (Layout 60%) sur PCB maison.
--   **Affichage :** Écran LCD SPI.
+- **Cœur de calcul :** Radxa Cubie A7Z (SoC Allwinner A733).
+    - Architecture **big.LITTLE** (2x Cortex-A76 + 6x Cortex-A55) pour une gestion fine de l'énergie.
+    - NPU 3 TOPS (Expérimental).
+- **[Interface](https://oshwlab.com/turingine/calculatrice) :** Clavier mécanique custom (Layout 60%) sur PCB maison.
+- **Affichage :** Écran LCD SPI.
 
 ### Software (La sobriété logicielle)
 
--   **OS :** Distribution Linux Embedded Custom (Basée sur Ubuntu Linux ARM).
-    -   Kernel optimisé pour le hardware Radxa.
-    -   Userspace minimaliste (pas de bloatware).
--   **Moteur Mathématique :** [Giac/XCas](https://www-fourier.ujf-grenoble.fr/~parisse/giac.html) (C++) pour le calcul formel symbolique.
--   **Optimisation TIPE :**
-    -   **CPU Pinning :** Allocation dynamique des processus lourds sur les cœurs P (Performance) et de l'UI sur les cœurs E (Efficacité).
-    -   **Boot Time :** Objectif < 5 secondes.
+- **OS :** Distribution Linux Embedded Custom (Basée sur Ubuntu Linux ARM).
+    - Kernel optimisé pour le hardware Radxa.
+    - Userspace minimaliste (pas de bloatware).
+- **Moteur Mathématique :** [Giac/XCas](https://www-fourier.ujf-grenoble.fr/~parisse/giac.html) (C++) pour le calcul formel symbolique.
+- **Optimisation TIPE :**
+    - **CPU Pinning :** Allocation dynamique des processus lourds sur les cœurs P (Performance) et de l'UI sur les cœurs E (Efficacité).
+    - **Boot Time :** Objectif < 5 secondes.
 
 ---
 
@@ -43,21 +43,21 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 ### Phase 1 : Le Socle (Hiver 2025)
 
--   [x] Sélection du hardware (Radxa Cubie A7Z).
--   [x] **Hardware :** Design du PCB v1 (Matrice clavier).
+- [x] Sélection du hardware (Radxa Cubie A7Z).
+- [x] **Hardware :** Design du PCB v1 (Matrice clavier).
 
 ### Phase 2 : L'Intégration (Printemps 2026)
 
--   [ ] **Interface :** Développement de l'UI graphique communiquant avec XCas.
--   [ ] **Hardware :** Assemblage du prototype physique (Fabrication et conception de la coque).
--   [ ] **Système :** Scripting du démarrage automatique (Systemd service) et affichage via wayland.
--   [ ] **Software :** Compilation et exécution de Giac en ligne de commande sur la cible.
--   [ ] **Système :** Création de l'image disque "Rootfs" Custom (Xcas, GCC, OCaml, ...).
+- [ ] **Interface :** Développement de l'UI graphique communiquant avec XCas.
+- [ ] **Hardware :** Assemblage du prototype physique (Fabrication et conception de la coque).
+- [ ] **Système :** Scripting du démarrage automatique (Systemd service) et affichage via wayland.
+- [ ] **Software :** Compilation et exécution de Giac en ligne de commande sur la cible.
+- [ ] **Système :** Création de l'image disque "Rootfs" Custom (Xcas, GCC, OCaml, ...).
 
 ### Phase 3 : L'Optimisation & TIPE (Été 2026)
 
--   [ ] **Mesures :** Comparatifs de consommation (Joules/Calcul) vs architectures classiques.
--   [ ] **Documentation :** Rédaction du dossier technique et publication des plans finaux.
+- [ ] **Mesures :** Comparatifs de consommation (Joules/Calcul) vs architectures classiques.
+- [ ] **Documentation :** Rédaction du dossier technique et publication des plans finaux.
 
 ---
 
@@ -70,16 +70,15 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 - [ ] Interface avec giac (parsing,...) (Kamil)
 - [ ] Faire fonctionner l'hardware (Tout le monde).
 
-
 ## Installation & Reproduction
 
 - [Documents](https://drive.proton.me/urls/4GS7V8XAS4#EcAJzXk4TEI0) autres ( coque, statues, ...)
 
 ### Prérequis
 
--   Une carte Radxa Cubie A7Z.
--   Une carte microSD (16 Go min).
--   Un PC Linux pour la compilation croisée.
+- Une carte Radxa Cubie A7Z.
+- Une carte microSD (16 Go min).
+- Un PC Linux pour la compilation croisée.
 
 ### Flasher l'OS (Méthode "Injection")
 
@@ -97,13 +96,21 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 
 ## L'Équipe
 
--   **Nathanaël Buendia (Poitiers)** : CPGE MP2I
--   **Kamil Leys (Tours)** : CPGE MP2I
--   **Gaspard Lebaube (Paris)** : DL1
+- **Nathanaël Buendia (Poitiers)** : CPGE MP2I
+- **Kamil Leys (Tours)** : CPGE MP2I
+- **Gaspard Lebaube (Paris)** : DL1
 
 ---
 
 ## Licence
 
--   **Code source :** GPLv3 (Garantit que le projet restera toujours ouvert).
--   **Hardware (PCB) :** CERN-OHL-W (Open Hardware Licence).
+- **Code source :** GPLv3 (Garantit que le projet restera toujours ouvert).
+- **Hardware (PCB) :** CERN-OHL-W (Open Hardware Licence).
+
+## Soutien
+
+Projet financé avec le soutien de la **Fondation de Poitiers**.
+
+<p align="center">
+  <img src="./LOGO-FONDATION-POITIERS-UNIVERSITE.svg" alt="Logo Fondation de Poitiers Université" width="420" />
+</p>
