@@ -112,5 +112,5 @@ Le projet repose sur une approche **[Hardware/Software](https://docs.google.com/
 Projet financé avec le soutien de la **Fondation de Poitiers**.
 
 <p align="center">
-  <img src="./LOGO-FONDATION-POITIERS-UNIVERSITE.svg" alt="Logo Fondation de Poitiers Université" width="420" />
+  <img src="./LOGO-FONDATION-POITIERS-UNIVERSITE.png" alt="Logo Fondation de Poitiers Université" width="420" />
 </p>
